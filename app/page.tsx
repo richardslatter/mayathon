@@ -1,35 +1,10 @@
 "use client";
 
 import React from "react";
-import {
-  AppBar,
-  Toolbar,
-  Typography,
-  Button,
-  CssBaseline,
-} from "@mui/material";
+import { CssBaseline } from "@mui/material";
 
+import NavBar from "./navbar";
 import Leaderboard from "./leaderboard";
-
-function NavBar() {
-  return (
-    <AppBar
-      position="static"
-      color="transparent"
-      elevation={0}
-      className="NavBar"
-    >
-      <Toolbar>
-        <Typography variant="h6" className="NavBar-logo">
-          MAYATHON
-        </Typography>
-        <Button className="StravaLoginButton">
-          Connect your Strava Account to Join
-        </Button>
-      </Toolbar>
-    </AppBar>
-  );
-}
 
 function Title() {
   return <h1 className="Title">Mayathon 2024!</h1>;

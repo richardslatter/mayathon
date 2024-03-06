@@ -28,33 +28,3 @@
   color: #fc5200;
   font-family: 'MaisonNeue', sans-serif;
 }
-
-.NavBar {
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  padding: 10px 20px;
-  background-color: #ffffff;
-}
-
-.NavBar-logo {
-  color: #fc5200;
-  font-family: 'MaisonNeue', sans-serif;
-  font-size: 24px;
-  text-decoration: none;
-}
-
-.StravaLoginButton {
-  background-color: #fc5200;
-  color: #ffffff;
-  padding: 10px 20px;
-  font-size: 16px;
-  text-transform: none;
-  border: none;
-  cursor: pointer;
-  margin-left: auto;
-}
-
-.StravaLoginButton:hover {
-  background-color: #c94100;
-}
